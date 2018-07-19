@@ -49,7 +49,6 @@
     border-bottom: 1px solid gold; }
   .container-fluid .container-fuild .nav-link:hover {
     -webkit-animation: rotation 1s infinite linear; }
-
 @-webkit-keyframes rotation {
   from {
     -webkit-transform: rotate(0deg); }
@@ -57,8 +56,6 @@
     -webkit-transform: rotate(45deg); } }
   .container-fluid .container-fuild .btn:hover {
     background: yellow;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
     transform: scale(1.2); }
   @media screen and (max-width: 767px) {
     .container-fluid .container-fuild .v1-2 {
@@ -70,3 +67,5 @@
     .container-fluid .container-fuild .v1-2 {
       width: 90%;
       font-size: 12px; } }
+
+/*# sourceMappingURL=bai1.css.map */
