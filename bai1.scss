@@ -208,8 +208,110 @@
 }
 
 // 		<!-- end hung -->
-// 		<!-- phong -->
+// 		<!-- phong 01 -->
+	.phong01{
+		height: auto;
+		background: none;
+		margin: 0 auto;
+		@media screen and (max-width: 767px) {
+			height: auto;
+		}
+		.row1{
+			height: 70px;
+			// background: #58FAF4;
+			margin: 0 auto;
+			h3{
+				display: block;
+				width: 100%;
+				height: 70%;
+				text-align: center;
+				// background: #00FF00;
+				margin-top: 1%;
+				padding-top: 1%;
+				@media screen and (max-width: 767px) {
+					padding-top: 3%;
+				}
+			}
+			hr{
+				width: 9%;
+				height: 4%;
+				background: #0080FF;
+				margin-top: -0.2%;
+				@media screen and (max-width: 767px) {
+					width: 45%;
+					margin-top: 2%;
 
+				}
+				@media screen and (max-width: 1024px) and (min-width: 768px){
+					margin-top: 0.3%;
+					width: 15%;
+				}
+			}
+
+		}
+		.row2{
+			height: auto;
+			// background: #886A08;
+			margin: 0 auto;
+
+			.ke{
+				width: 100%;
+				height: auto;
+				hr{
+					width: 27%;
+					height: 3px;
+					background: gray;
+					margin: 0 auto;
+					@media screen and (max-width: 767px) {
+						width: 100%;
+
+					}
+					@media screen and (max-width: 1024px) and (min-width: 768px){
+						width: 50%;
+					}
+				}
+			}
+			.card-deck{
+				margin-top: 1%;
+				.card{
+					.card-body{
+						h5{
+							text-align: center;
+						}
+						.sao{
+							margin: 0 auto;
+							width: 60%;
+							height: 20%;
+							// background: red;
+							margin-top: -3%;
+							@media screen and (max-width: 1024px) and (min-width: 768px){
+								width: 70%;
+							}
+							img{
+								// float: left;
+								width: 15%;
+								height: 100%;
+
+							}
+						}
+						p{
+							text-align: center;
+							@media screen and (max-width: 1024px) and (min-width: 768px){
+								font-size: 90%;
+							}
+						}
+						.b1{
+							float: left;
+							text-decoration: line-through;
+						}
+						.b2{
+							float: right;
+						}
+					}
+				}
+			}
+		}
+	}
 // 		<!-- end phong -->
 // 		<!-- thang -->
 .thang{
@@ -545,8 +647,104 @@
 	}
 }
 // 		<!-- end thang -->
-// 		<!-- phong01 -->
+// 		<!-- phong 02 -->
+	.phong2{
+		height: auto;
+		// background: #86B404;
+		.box1{
+			height: 70px;
+			// background: #58FAF4;
+			margin: 0 auto;
+			h3{
+				display: block;
+				width: 100%;
+				height: 70%;
+				text-align: center;
+				// background: #00FF00;
+				margin-top: 1%;
+				padding-top: 1%;
+			}
+			hr{
+				width: 9%;
+				height: 4%;
+				background: #0080FF;
+				margin-top: -0.2%;
+				@media screen and (max-width: 767px) {
+					width: 45%;
+					margin-top: 2%;
+				}
+				@media screen and (max-width: 1024px) and (min-width: 768px){
+					margin-top: 0.3%;
+					width: 15%;
+				}
+			}
+		}
+		.card{
+			border: none;
+			// background: red;
+			height: 220px;
+			hr{
+				width: 27%;
+				height: 3px;
+				background: gray;
+				margin: 0 auto;
+				margin-top: -0.1%;
+				@media screen and (max-width: 767px) {
+					width: 100%;
+				}
+				@media screen and (max-width: 1024px) and (min-width: 768px){
+					width: 50%;
+				}
+			}
+			.carousel-indicators{
+				position: absolute;
+				bottom: -10px;
+				li{
+					width: 10px;
+					height: 10px;
+					background: blue;
+				}
+			}
+			.carousel-inner{
+				height: 210px;
+				// background: blue;
+				.carousel-item{
+					img{
+						margin-top: 1%;
+						display: block;
+						width: 100px;
+						height: 100px;
+						margin: 0 auto;
+						margin-top: 1%;
+						border-radius: 50%;
+						@media screen and (max-width: 767px) {
+							width: 70px;
+							height: 70px;
+						}
 
+					}
+					.carousel-caption{
+						position: absolute;
+						top: 80%;
+						p{
+							color: black;
+							@media screen and (max-width: 767px) {
+								font-size:80%;
+							}
+						}
+						h6{
+							color: black;
+							@media screen and (max-width: 767px) {
+								font-size:90%;
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+	}
 // 		<!-- end phong01 -->
 // 		<!-- duy -->
 
