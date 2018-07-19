@@ -1,27 +1,149 @@
 .container-fluid{
 	
-// 		<!-- dat -->
+	// 		<!-- dat -->
 
-// 		<!-- end dat -->
-// 		<!-- hung -->
+	// 		<!-- end dat -->
+	// 		<!-- hung -->
 
-// 		<!-- end hung -->
-// 		<!-- phong -->
+	// 		<!-- end hung -->
+	// 		<!-- phong -->
 
-// 		<!-- end phong -->
-// 		<!-- thang -->
+	// 		<!-- end phong -->
+	// 		<!-- thang -->
 
-// 		<!-- end thang -->
-// 		<!-- phong01 -->
+	// 		<!-- end thang -->
+	// 		<!-- phong01 -->
 
-// 		<!-- end phong01 -->
-// 		<!-- duy -->
+	// 		<!-- end phong01 -->
+	// 		<!-- duy -->
+	.duy{
+		height: auto;
+		background: rgba(16, 54, 103, 0.8);
+		.khung{
+			height: 100%;
+			.k2{
+				height: 100%;
+				// background: yellow;
+				.chu{
+					padding-top:10%;
+					h1{
+						font-size: 130%;
+						color: white;
+						a{
+							color: white;
 
-// 		<!-- end duy -->
-// 		<!-- son -->
+						}
+					}
+					p{
+						font-size: 80%;
+						color: white
+					}
+					.duoi{
+						font-size: 100%;
+					}
+					.bt{
+						padding-top: 2%;
+						a{
+							font-weight: bold;
+							text-decoration: none;
+							font-size: 80%;
+							color: green;
+							&:hover{
+								color:red;
+							}
+						}
 
-// 		<!-- end son -->
-// 		<!-- hau -->
+					}
+					@media all and (max-width: 414px){
+						text-align:  center;
+					}
 
-// 		<!-- end hau -->
+				}
+			}
+			.k3{
+				height: 100%;
+				// background: red;
+				.hinh{
+					padding-top: 8%;
+					height: 85%;
+					width: 100%;
+					img{
+						width: 100%;
+						height: 100%;
+						
+					}
+				}
+			}
+		}
+	}
+	.duy2{
+		height: auto;
+		.h1{
+			height: auto;
+			// background: pink;
+			h1{
+				font-size: 90%;
+				text-align:  center;
+			}
+		}
+		.card-deck{
+			height: 90%;
+			padding-top: 1%;
+			width: 90%;
+			// border: dotted 2px;
+			height: auto;
+			margin: 0 auto;
+			.card-body{
+				// border: dotted 1px;
+				text-align:  center;
+				h5{
+					font-weight: bold;
+					color: #0000FF;
+					font-size: 120%;
+				}
+				p{
+					padding-top: 2px;
+					color: #220000;
+					font-size: 100%;
+					font-family: "time new roman"
+				}
+				.how{
+					p{
+						font-weight: bold;
+						padding-left: 3px;
+						float: right;
+						color: #110000;
+					}
+				}
+				.btt{
+					border: solid 2px blue;
+					margin: 0 auto;
+					width: 40%;
+					// background: red;
+					a{
+						font-weight: bold;
+						font-size: 100%;
+						text-decoration: none;;
+						color: #0000FF;
+						&:hover{
+								// background: lightgreen;
+								color:red;
+							}
+						// background:red;
+					}
+					&:hover{
+								background: lightgreen;
+								color:red;
+							}
+				}
+			}
+		}
+}
+	// 		<!-- end duy -->
+	// 		<!-- son -->
+
+	// 		<!-- end son -->
+	// 		<!-- hau -->
+
+	// 		<!-- end hau -->
 }
