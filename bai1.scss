@@ -789,7 +789,7 @@
 						text-align:  center;
 					}
 
-<<<<<<< HEAD
+// <<<<<<< HEAD
 				}
 			}
 			.k3{
@@ -873,21 +873,18 @@
 }
 	// 		<!-- end duy -->
 	// 		<!-- son -->
-=======
+// =======
 // 		<!-- end duy -->
 // 		<!-- son -->
 .son{
-	
-	
 	.box1{
 		height: 500px;
 		position: relative;
 		background-image: url(bc2.jpg);
 		background-size: 100%;
 		@media screen and (max-width: 767px){
-			height: 230px;
+			display: none;
 		}
-		
 		.v1 h5{
 			margin-top: 5px;
 			// background: yellow;
@@ -951,12 +948,12 @@
 				}
 				@media screen and (max-width: 480px){
 					i{
-                       position: absolute;
-				      top: 20%;
-				bottom: 5%;
-                 left: -30%;
-				color: white;
-				font-size: 50px;
+	                    position: absolute;
+					    top: 20%;
+						bottom: 5%;
+			            left: -30%;
+						color: white;
+						font-size: 50px;
 					}
 				
 				}
@@ -1000,6 +997,7 @@
 		}
 		
 	}
+
 
 }
 .son1{
@@ -1071,16 +1069,15 @@
 				}
 			}
 
-
 		}
 	}
->>>>>>> 3926cb992362aac71db111d9b42a5430735f0786
+// >>>>>>> 3926cb992362aac71db111d9b42a5430735f0786
 
 	// 		<!-- end son -->
 	// 		<!-- hau -->
-			.ha{
-		background: #000011;
-		height: auto;
+		.ha{
+			background: #000011;
+			height: auto;
 		.hau{
 				// height: 600px;
 				// background: #000011;
