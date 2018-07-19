@@ -1,7 +1,117 @@
 .container-fluid{
 
 // 		<!-- dat -->
+		.container-fuild{
+	height: 610px;
+	background: #333366;
+	.dat{
+		height: 500px;
+		// background: red;
+		.v1{
+			height: 40px;
+			// background: pink;
+			margin: 0 auto;
+			border-bottom: 1px solid black;
+			.v1-1{
+				height: 40px;
+				// background: yellow;
+				float: left;
+				.fas{
+					line-height: 40px;
+					color: white;
+				}
+			}
+			.v1-2{
+				height: 40px;
+				// background: gold;
+				float: right;
+				.fab{
+					margin-left: 15px;
+					line-height: 40px;
+					color: white;
 
+					
+				}
+				.fas{
+					margin-left: 10px;
+					line-height: 40px;
+					color: white;
+
+				}
+				i{
+					float: right;
+				}
+			}
+		}
+		.navbar{
+			// background: pink;
+			width: 85%;
+			margin: 0 auto;
+		}
+		.nav-item{
+			margin-left: 5px;
+				// background: pink;
+				.nav-link{
+					text-align: center;
+					text-transform: uppercase;
+					color: white;
+					font-size: 12px;
+				}
+			}
+
+			#demo{
+				height: 500px;
+				background: yellow;
+				h3{
+					text-transform: uppercase;
+				}
+				p{
+					text-transform: uppercase;
+				}
+				.btn{
+					text-transform: uppercase;
+				}
+			}
+		}
+			a:hover{
+		// background: yellow;
+		border-bottom: 1px solid gold;
+		}
+		.nav-link:hover {
+			-webkit-animation: rotation 1s infinite linear;
+		}
+
+		@-webkit-keyframes rotation {
+			from {
+				-webkit-transform: rotate(0deg);
+			}
+			to {
+				-webkit-transform: rotate(45deg);
+			}
+		}
+		.btn:hover{
+			background: yellow; 
+			transform: scale(1.2); 
+
+		}
+
+		@media screen and (max-width: 767px){
+			.v1-2{
+				display: none;
+			}
+			.navbar-toggler{
+				float: right;
+				margin-left: 90%;
+			}
+		}
+		@media screen and (min-width: 768px){
+			.v1-2{
+				width: 90%;
+				// background: pink;
+				font-size: 12px;
+			}
+		}
+}
 // 		<!-- end dat -->
 // 		<!-- hung -->
 
