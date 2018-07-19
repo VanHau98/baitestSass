@@ -1,3 +1,152 @@
+.container-fluid .phong01 {
+  height: auto;
+  background: none;
+  margin: 0 auto; }
+  @media screen and (max-width: 767px) {
+    .container-fluid .phong01 {
+      height: auto; } }
+  .container-fluid .phong01 .row1 {
+    height: 70px;
+    margin: 0 auto; }
+    .container-fluid .phong01 .row1 h3 {
+      display: block;
+      width: 100%;
+      height: 70%;
+      text-align: center;
+      margin-top: 1%;
+      padding-top: 1%; }
+      @media screen and (max-width: 767px) {
+        .container-fluid .phong01 .row1 h3 {
+          padding-top: 3%; } }
+    .container-fluid .phong01 .row1 hr {
+      width: 9%;
+      height: 4%;
+      background: #0080FF;
+      margin-top: -0.2%; }
+      @media screen and (max-width: 767px) {
+        .container-fluid .phong01 .row1 hr {
+          width: 45%;
+          margin-top: 2%; } }
+      @media screen and (max-width: 1024px) and (min-width: 768px) {
+        .container-fluid .phong01 .row1 hr {
+          margin-top: 0.3%;
+          width: 15%; } }
+  .container-fluid .phong01 .row2 {
+    height: auto;
+    margin: 0 auto; }
+    .container-fluid .phong01 .row2 .ke {
+      width: 100%;
+      height: auto; }
+      .container-fluid .phong01 .row2 .ke hr {
+        width: 27%;
+        height: 3px;
+        background: gray;
+        margin: 0 auto; }
+        @media screen and (max-width: 767px) {
+          .container-fluid .phong01 .row2 .ke hr {
+            width: 100%; } }
+        @media screen and (max-width: 1024px) and (min-width: 768px) {
+          .container-fluid .phong01 .row2 .ke hr {
+            width: 50%; } }
+    .container-fluid .phong01 .row2 .card-deck {
+      margin-top: 1%; }
+      .container-fluid .phong01 .row2 .card-deck .card .card-body h5 {
+        text-align: center; }
+      .container-fluid .phong01 .row2 .card-deck .card .card-body .sao {
+        margin: 0 auto;
+        width: 60%;
+        height: 20%;
+        margin-top: -3%; }
+        @media screen and (max-width: 1024px) and (min-width: 768px) {
+          .container-fluid .phong01 .row2 .card-deck .card .card-body .sao {
+            width: 70%; } }
+        .container-fluid .phong01 .row2 .card-deck .card .card-body .sao img {
+          width: 15%;
+          height: 100%; }
+      .container-fluid .phong01 .row2 .card-deck .card .card-body p {
+        text-align: center; }
+        @media screen and (max-width: 1024px) and (min-width: 768px) {
+          .container-fluid .phong01 .row2 .card-deck .card .card-body p {
+            font-size: 90%; } }
+      .container-fluid .phong01 .row2 .card-deck .card .card-body .b1 {
+        float: left;
+        text-decoration: line-through; }
+      .container-fluid .phong01 .row2 .card-deck .card .card-body .b2 {
+        float: right; }
 
+.container-fluid .phong2 {
+  height: auto; }
+  .container-fluid .phong2 .box1 {
+    height: 70px;
+    margin: 0 auto; }
+    .container-fluid .phong2 .box1 h3 {
+      display: block;
+      width: 100%;
+      height: 70%;
+      text-align: center;
+      margin-top: 1%;
+      padding-top: 1%; }
+    .container-fluid .phong2 .box1 hr {
+      width: 9%;
+      height: 4%;
+      background: #0080FF;
+      margin-top: -0.2%; }
+      @media screen and (max-width: 767px) {
+        .container-fluid .phong2 .box1 hr {
+          width: 45%;
+          margin-top: 2%; } }
+      @media screen and (max-width: 1024px) and (min-width: 768px) {
+        .container-fluid .phong2 .box1 hr {
+          margin-top: 0.3%;
+          width: 15%; } }
+  .container-fluid .phong2 .card {
+    border: none;
+    height: 220px; }
+    .container-fluid .phong2 .card hr {
+      width: 27%;
+      height: 3px;
+      background: gray;
+      margin: 0 auto;
+      margin-top: -0.1%; }
+      @media screen and (max-width: 767px) {
+        .container-fluid .phong2 .card hr {
+          width: 100%; } }
+      @media screen and (max-width: 1024px) and (min-width: 768px) {
+        .container-fluid .phong2 .card hr {
+          width: 50%; } }
+    .container-fluid .phong2 .card .carousel-indicators {
+      position: absolute;
+      bottom: -10px; }
+      .container-fluid .phong2 .card .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        background: blue; }
+    .container-fluid .phong2 .card .carousel-inner {
+      height: 210px; }
+      .container-fluid .phong2 .card .carousel-inner .carousel-item img {
+        margin-top: 1%;
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 1%;
+        border-radius: 50%; }
+        @media screen and (max-width: 767px) {
+          .container-fluid .phong2 .card .carousel-inner .carousel-item img {
+            width: 70px;
+            height: 70px; } }
+      .container-fluid .phong2 .card .carousel-inner .carousel-item .carousel-caption {
+        position: absolute;
+        top: 80%; }
+        .container-fluid .phong2 .card .carousel-inner .carousel-item .carousel-caption p {
+          color: black; }
+          @media screen and (max-width: 767px) {
+            .container-fluid .phong2 .card .carousel-inner .carousel-item .carousel-caption p {
+              font-size: 80%; } }
+        .container-fluid .phong2 .card .carousel-inner .carousel-item .carousel-caption h6 {
+          color: black; }
+          @media screen and (max-width: 767px) {
+            .container-fluid .phong2 .card .carousel-inner .carousel-item .carousel-caption h6 {
+              font-size: 90%; } }
 
 /*# sourceMappingURL=bai1.css.map */
