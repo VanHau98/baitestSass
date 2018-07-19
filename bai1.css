@@ -1,72 +1,70 @@
-.container-fluid .container-fuild {
-  height: 610px;
+.container-fluid .dat {
+  height: auto;
   background: #333366; }
-  .container-fluid .container-fuild .dat {
-    height: 500px; }
-    .container-fluid .container-fuild .dat .v1 {
+  .container-fluid .dat .v1 {
+    height: 40px;
+    margin: 0 auto;
+    border-bottom: 1px solid black; }
+    .container-fluid .dat .v1 .v1-1 {
       height: 40px;
-      margin: 0 auto;
-      border-bottom: 1px solid black; }
-      .container-fluid .container-fuild .dat .v1 .v1-1 {
-        height: 40px;
-        float: left; }
-        .container-fluid .container-fuild .dat .v1 .v1-1 .fas {
-          line-height: 40px;
-          color: white; }
-      .container-fluid .container-fuild .dat .v1 .v1-2 {
-        height: 40px;
+      float: left; }
+      .container-fluid .dat .v1 .v1-1 .fas {
+        line-height: 40px;
+        color: white; }
+    .container-fluid .dat .v1 .v1-2 {
+      height: 40px;
+      float: right; }
+      .container-fluid .dat .v1 .v1-2 .fab {
+        margin-left: 15px;
+        line-height: 40px;
+        color: white; }
+      .container-fluid .dat .v1 .v1-2 .fas {
+        margin-left: 10px;
+        line-height: 40px;
+        color: white; }
+      .container-fluid .dat .v1 .v1-2 i {
         float: right; }
-        .container-fluid .container-fuild .dat .v1 .v1-2 .fab {
-          margin-left: 15px;
-          line-height: 40px;
-          color: white; }
-        .container-fluid .container-fuild .dat .v1 .v1-2 .fas {
-          margin-left: 10px;
-          line-height: 40px;
-          color: white; }
-        .container-fluid .container-fuild .dat .v1 .v1-2 i {
-          float: right; }
-    .container-fluid .container-fuild .dat .navbar {
-      width: 85%;
-      margin: 0 auto; }
-    .container-fluid .container-fuild .dat .nav-item {
-      margin-left: 5px; }
-      .container-fluid .container-fuild .dat .nav-item .nav-link {
-        text-align: center;
-        text-transform: uppercase;
-        color: white;
-        font-size: 12px; }
-    .container-fluid .container-fuild .dat #demo {
-      height: 500px;
-      background: yellow; }
-      .container-fluid .container-fuild .dat #demo h3 {
-        text-transform: uppercase; }
-      .container-fluid .container-fuild .dat #demo p {
-        text-transform: uppercase; }
-      .container-fluid .container-fuild .dat #demo .btn {
-        text-transform: uppercase; }
-  .container-fluid .container-fuild a:hover {
-    border-bottom: 1px solid gold; }
-  .container-fluid .container-fuild .nav-link:hover {
-    -webkit-animation: rotation 1s infinite linear; }
+  .container-fluid .dat .navbar {
+    width: 85%;
+    margin: 0 auto; }
+  .container-fluid .dat .nav-item {
+    margin-left: 5px; }
+    .container-fluid .dat .nav-item .nav-link {
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      font-size: 12px; }
+  .container-fluid .dat #demo {
+    height: 500px;
+    background: yellow; }
+    .container-fluid .dat #demo h3 {
+      text-transform: uppercase; }
+    .container-fluid .dat #demo p {
+      text-transform: uppercase; }
+    .container-fluid .dat #demo .btn {
+      text-transform: uppercase; }
+.container-fluid a:hover {
+  border-bottom: 1px solid gold; }
+.container-fluid .nav-link:hover {
+  -webkit-animation: rotation 1s infinite linear; }
 @-webkit-keyframes rotation {
   from {
     -webkit-transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(45deg); } }
-  .container-fluid .container-fuild .btn:hover {
-    background: yellow;
-    transform: scale(1.2); }
-  @media screen and (max-width: 767px) {
-    .container-fluid .container-fuild .v1-2 {
-      display: none; }
-    .container-fluid .container-fuild .navbar-toggler {
-      float: right;
-      margin-left: 90%; } }
-  @media screen and (min-width: 768px) {
-    .container-fluid .container-fuild .v1-2 {
-      width: 90%;
-      font-size: 12px; } }
+.container-fluid .btn:hover {
+  background: yellow;
+  transform: scale(1.2); }
+@media screen and (max-width: 767px) {
+  .container-fluid .v1-2 {
+    display: none; }
+  .container-fluid .navbar-toggler {
+    float: right;
+    margin-left: 90%; } }
+@media screen and (min-width: 768px) {
+  .container-fluid .v1-2 {
+    width: 90%;
+    font-size: 12px; } }
 .container-fluid .ha {
   background: #000011;
   height: auto; }

@@ -1,12 +1,11 @@
 .container-fluid{
 
-// 		<!-- dat -->
-		.container-fuild{
-	height: 610px;
-	background: #333366;
-	.dat{
-		height: 500px;
+// 		<!-- dat -->	
+.dat{
+	height: auto;
 		// background: red;
+		
+		background: #333366;
 		.v1{
 			height: 40px;
 			// background: pink;
@@ -73,45 +72,43 @@
 				}
 			}
 		}
-			a:hover{
+		a:hover{
 		// background: yellow;
 		border-bottom: 1px solid gold;
-		}
-		.nav-link:hover {
-			-webkit-animation: rotation 1s infinite linear;
-		}
+	}
+	.nav-link:hover {
+		-webkit-animation: rotation 1s infinite linear;
+	}
 
-		@-webkit-keyframes rotation {
-			from {
-				-webkit-transform: rotate(0deg);
-			}
-			to {
-				-webkit-transform: rotate(45deg);
-			}
+	@-webkit-keyframes rotation {
+		from {
+			-webkit-transform: rotate(0deg);
 		}
-		.btn:hover{
-			background: yellow; 
-			transform: scale(1.2); 
-
+		to {
+			-webkit-transform: rotate(45deg);
 		}
-
-		@media screen and (max-width: 767px){
-			.v1-2{
-				display: none;
-			}
-			.navbar-toggler{
-				float: right;
-				margin-left: 90%;
-			}
+	}
+	.btn:hover{
+		background: yellow; 
+		transform: scale(1.2); 
+	}
+	@media screen and (max-width: 767px){
+		.v1-2{
+			display: none;
 		}
-		@media screen and (min-width: 768px){
-			.v1-2{
-				width: 90%;
+		.navbar-toggler{
+			float: right;
+			margin-left: 90%;
+		}
+	}
+	@media screen and (min-width: 768px){
+		.v1-2{
+			width: 90%;
 				// background: pink;
 				font-size: 12px;
 			}
 		}
-}
+
 // 		<!-- end dat -->
 // 		<!-- hung -->
 
@@ -132,100 +129,100 @@
 
 // 		<!-- end son -->
 // 		<!-- hau -->
-		.ha{
-				background: #000011;
-				height: auto;
+	.ha{
+		background: #000011;
+		height: auto;
 		.hau{
-			// height: 600px;
-			// background: #000011;
-			color:black;
-			opacity: 0.8;
-			// @media screen and(max-with:767px){
-			// 	height: 1600px;
-			// }
-			.hau11{
-				float: left;
-				// background: pink;
-				padding-top:20px;
-				h2{
-					color: red;
-				}
-				padding-right: 40px;
-				p{
-					text-align: justify;
-					font-size: 10pt;
-				}
-				h6{
-					margin: 0;
-					padding:0;
-				}
-				
-				@media screen and (max-width: 1023px){
+				// height: 600px;
+				// background: #000011;
+				color:black;
+				opacity: 0.8;
+				// @media screen and(max-with:767px){
+				// 	height: 1600px;
+				// }
+				.hau11{
+					float: left;
+					// background: pink;
+					padding-top:20px;
+					h2{
+						color: red;
+					}
+					padding-right: 40px;
 					p{
-						font-size: 8pt;
+						text-align: justify;
+						font-size: 10pt;
 					}
 					h6{
-						font-size: 8pt;
+						margin: 0;
+						padding:0;
 					}
-					h2{
-						font-size: 12pt;
-					}
-					h5{
-						font-size: 8pt;
-					}
-				}
-				.media{
-					float: left;
-					.media-body{
-						i{
-							font-size: 50%;
+					
+					@media screen and (max-width: 1023px){
+						p{
+							font-size: 8pt;
+						}
+						h6{
+							font-size: 8pt;
+						}
+						h2{
+							font-size: 12pt;
+						}
+						h5{
+							font-size: 8pt;
 						}
 					}
-					img{
-						width: 20%;
-						height: 20%;
+					.media{
+						float: left;
+						.media-body{
+							i{
+								font-size: 50%;
+							}
+						}
+						img{
+							width: 20%;
+							height: 20%;
+						}
 					}
-				}
-				.hau22{
-					 margin-top: 50px;
-					.card-group{
-						.card{
-							img{
-								height: 60px;
+					.hau22{
+						margin-top: 50px;
+						.card-group{
+							.card{
+								img{
+									height: 60px;
+								}
 							}
 						}
 					}
 				}
-			}
-			.oke{
-				float: left;
-				height: 1px;
-				background:black;
-				position: relative;
-				margin-top: 20px;
-				p{
-					text-align: center;
-					font-size: 14pt;
-					padding-top:50px
-				}
-				.ogiua{
-					width: 50px;
-					height: 50px;				
+				.oke{
+					float: left;
+					height: 1px;
 					background:black;
-					position: absolute;
-					border-radius: 50%;
-					top:-25px;
-					margin-left: 45%;
-					@media screen and (max-width: 767px){
-						margin-left: 35%;
+					position: relative;
+					margin-top: 20px;
+					p{
+						text-align: center;
+						font-size: 14pt;
+						padding-top:50px
 					}
-					i{
-						color: white;
-						margin-left: 20%;
+					.ogiua{
+						width: 50px;
+						height: 50px;				
+						background:black;
+						position: absolute;
+						border-radius: 50%;
+						top:-25px;
+						margin-left: 45%;
+						@media screen and (max-width: 767px){
+							margin-left: 35%;
+						}
+						i{
+							color: white;
+							margin-left: 20%;
+						}
 					}
 				}
 			}
-		}
 	}
 // 		<!-- end hau -->
 }
