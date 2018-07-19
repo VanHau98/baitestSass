@@ -492,7 +492,8 @@
       .container-fluid .phong2 .card .carousel-indicators li {
         width: 10px;
         height: 10px;
-        background: blue; }
+        background: blue;
+        border-radius: 50%; }
     .container-fluid .phong2 .card .carousel-inner {
       height: 210px; }
       .container-fluid .phong2 .card .carousel-inner .carousel-item img {
