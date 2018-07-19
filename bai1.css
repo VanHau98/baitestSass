@@ -116,30 +116,16 @@
 .container-fluid .thang {
   height: auto;
   background: #086A87; }
-  .container-fluid .thang .v1 {
+  .container-fluid .thang .p1 {
     height: 80px;
     position: relative; }
-    .container-fluid .thang .v1 h2 {
+    .container-fluid .thang .p1 h3 {
       display: block;
       float: left;
       margin: 0 auto;
       padding: 30px;
       border-bottom: 2px solid grey;
       color: white; }
-  .container-fluid .thang .line {
-    height: 3px;
-    width: 15%;
-    background: #04B4AE;
-    float: left;
-    position: absolute;
-    top: 75px;
-    margin: 0 33%; }
-    @media screen and (max-width: 767px) {
-      .container-fluid .thang .line {
-        margin-left: 40%; } }
-    @media screen and (min-width: 768px) and (max-width: 1025px) {
-      .container-fluid .thang .line {
-        margin-left: 38%; } }
   .container-fluid .thang .v2 {
     height: auto; }
     .container-fluid .thang .v2 b {
@@ -295,8 +281,8 @@
         height: 45px;
         border-radius: 50%;
         position: absolute;
-        bottom: 60px;
-        right: 30px; }
+        bottom: 25px;
+        right: 40px; }
         @media screen and (max-width: 767px) {
           .container-fluid .thang .v2 .v4 .v4-3 {
             bottom: 30px;
@@ -318,8 +304,8 @@
         height: 45px;
         border-radius: 50%;
         position: absolute;
-        bottom: 60px;
-        left: 30px; }
+        bottom: 25px;
+        left: 40px; }
         @media screen and (max-width: 767px) {
           .container-fluid .thang .v2 .v4 .v4-4 {
             bottom: 30px;

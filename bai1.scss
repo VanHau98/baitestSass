@@ -215,11 +215,11 @@
 .thang{
 	height: auto;
 	background: #086A87;
-	.v1{
+	.p1{
 		height: 80px;
 		// background: red;
 		position: relative;
-		h2{
+		h3{
 			display: block;
 			float: left;
 			margin: 0 auto;
@@ -228,21 +228,21 @@
 			color: white;
 		}
 	}
-	.line{
-		height: 3px;
-		width: 15%;
-		background: #04B4AE;
-		float: left;
-		position: absolute;
-		top: 75px;
-		margin: 0 33%;
-		@media screen and (max-width: 767px){
-			margin-left: 40%;
-		}
-		@media screen and (min-width: 768px) and (max-width: 1025px){
-			margin-left: 38%;
-		}
-	}
+	// .line{
+	// 	height: 3px;
+	// 	width: 15%;
+	// 	background: #04B4AE;
+	// 	float: left;
+	// 	position: absolute;
+	// 	top: 1715px;
+	// 	margin: 0 33%;
+	// 	@media screen and (max-width: 767px){
+	// 		margin-left: 40%;
+	// 	}
+	// 	@media screen and (min-width: 768px) and (max-width: 1025px){
+	// 		margin-left: 38%;
+	// 	}
+	// }
 	.v2{
 		// background: green;
 		height: auto;
@@ -435,8 +435,8 @@
 				border-radius: 50%;
 				// background: purple;
 				position: absolute;
-				bottom: 60px;
-				right: 30px;
+				bottom: 25px;
+				right: 40px;
 				@media screen and (max-width: 767px){
 					bottom: 30px;
 					right: 60px;
@@ -460,8 +460,8 @@
 				border-radius: 50%;
 				// background: purple;
 				position: absolute;
-				bottom: 60px;
-				left: 30px;
+				bottom: 25px;
+				left: 40px;
 				@media screen and (max-width: 767px){
 					bottom: 30px;
 					left: 50px;
