@@ -1,3 +1,272 @@
+.container-fluid .thang {
+  height: auto;
+  background: #086A87; }
+  .container-fluid .thang .v1 {
+    height: 80px;
+    position: relative; }
+    .container-fluid .thang .v1 h2 {
+      display: block;
+      float: left;
+      margin: 0 auto;
+      padding: 30px;
+      border-bottom: 2px solid grey;
+      color: white; }
+  .container-fluid .thang .line {
+    height: 3px;
+    width: 15%;
+    background: #04B4AE;
+    float: left;
+    position: absolute;
+    top: 75px;
+    margin: 0 33%; }
+    @media screen and (max-width: 767px) {
+      .container-fluid .thang .line {
+        margin-left: 40%; } }
+    @media screen and (min-width: 768px) and (max-width: 1025px) {
+      .container-fluid .thang .line {
+        margin-left: 38%; } }
+  .container-fluid .thang .v2 {
+    height: auto; }
+    .container-fluid .thang .v2 b {
+      color: #04B4AE; }
+    .container-fluid .thang .v2 .v3-1 {
+      margin-top: 10%;
+      height: 30%;
+      width: 70%;
+      float: right; }
+      @media screen and (max-width: 767px) {
+        .container-fluid .thang .v2 .v3-1 {
+          display: none; } }
+      .container-fluid .thang .v2 .v3-1 p {
+        text-align: right;
+        font-size: 15px;
+        color: white; }
+        @media screen and (min-width: 767px) {
+          .container-fluid .thang .v2 .v3-1 p b {
+            display: block;
+            float: right;
+            width: 170%; } }
+    .container-fluid .thang .v2 .v3-2 {
+      height: 30%;
+      width: 70%;
+      float: right;
+      margin-top: 23%; }
+      @media screen and (max-width: 767px) {
+        .container-fluid .thang .v2 .v3-2 {
+          display: none; } }
+      @media screen and (min-width: 767px) and (max-width: 1023px) {
+        .container-fluid .thang .v2 .v3-2 {
+          margin-top: 10px;
+          margin-left: 200px; } }
+      @media screen and (min-width: 1024px) {
+        .container-fluid .thang .v2 .v3-2 {
+          margin-top: 60px;
+          margin-left: 200px; } }
+      .container-fluid .thang .v2 .v3-2 p {
+        text-align: right;
+        font-size: 15px;
+        color: white; }
+        @media screen and (min-width: 767px) {
+          .container-fluid .thang .v2 .v3-2 p b {
+            display: block;
+            float: right;
+            width: 170%; } }
+    .container-fluid .thang .v2 .v5-1 {
+      margin-top: 10%;
+      height: 30%;
+      width: 70%;
+      float: left; }
+      @media screen and (max-width: 767px) {
+        .container-fluid .thang .v2 .v5-1 {
+          display: none; } }
+      .container-fluid .thang .v2 .v5-1 p {
+        text-align: left;
+        font-size: 15px;
+        color: white; }
+        @media screen and (min-width: 767px) {
+          .container-fluid .thang .v2 .v5-1 p b {
+            display: block;
+            float: left;
+            width: 106%; } }
+    .container-fluid .thang .v2 .v5-2 {
+      height: 30%;
+      width: 70%;
+      float: left;
+      margin-top: 23%; }
+      @media screen and (max-width: 767px) {
+        .container-fluid .thang .v2 .v5-2 {
+          display: none; } }
+      @media screen and (min-width: 767px) {
+        .container-fluid .thang .v2 .v5-2 {
+          margin-top: 130px;
+          margin-left: -90px; } }
+      @media screen and (min-width: 1024px) {
+        .container-fluid .thang .v2 .v5-2 {
+          margin-top: 60px;
+          margin-left: -15px; } }
+      .container-fluid .thang .v2 .v5-2 p {
+        text-align: left;
+        font-size: 15px;
+        color: white; }
+        @media screen and (min-width: 767px) {
+          .container-fluid .thang .v2 .v5-2 p b {
+            display: block;
+            float: left;
+            width: 106%; } }
+    .container-fluid .thang .v2 .v4 {
+      position: relative;
+      margin-top: 3%; }
+      @media screen and (max-width: 767px) {
+        .container-fluid .thang .v2 .v4 {
+          margin-left: 3%; } }
+      @media screen and (min-width: 768px) and (max-width: 1025px) {
+        .container-fluid .thang .v2 .v4 {
+          margin-top: 5%; } }
+      .container-fluid .thang .v2 .v4:hover {
+        -webkit-animation: rotation 2s infinite linear; }
 
-
-/*# sourceMappingURL=bai1.css.map */
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+      .container-fluid .thang .v2 .v4 .v4-1 {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        position: absolute;
+        top: 15px;
+        left: 30px; }
+        @media screen and (max-width: 767px) {
+          .container-fluid .thang .v2 .v4 .v4-1 {
+            top: 30px;
+            left: 50px; } }
+        @media screen and (min-width: 768px) and (max-width: 1025px) {
+          .container-fluid .thang .v2 .v4 .v4-1 {
+            top: 7px;
+            left: 25px; } }
+        @media screen and (min-width: 359px) and (max-width: 415px) {
+          .container-fluid .thang .v2 .v4 .v4-1 {
+            top: 30px;
+            left: 45px; } }
+        @media screen and (min-width: 767px) and (max-width: 769px) {
+          .container-fluid .thang .v2 .v4 .v4-1 {
+            top: -5px;
+            left: 10px; } }
+      .container-fluid .thang .v2 .v4 .v4-2 {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        position: absolute;
+        top: 15px;
+        right: 30px; }
+        @media screen and (max-width: 767px) {
+          .container-fluid .thang .v2 .v4 .v4-2 {
+            top: 30px;
+            right: 50px; } }
+        @media screen and (min-width: 768px) and (max-width: 1025px) {
+          .container-fluid .thang .v2 .v4 .v4-2 {
+            top: 7px;
+            right: 25px; } }
+        @media screen and (min-width: 359px) and (max-width: 415px) {
+          .container-fluid .thang .v2 .v4 .v4-2 {
+            top: 30px;
+            right: 45px; } }
+        @media screen and (min-width: 767px) and (max-width: 769px) {
+          .container-fluid .thang .v2 .v4 .v4-2 {
+            top: -5px;
+            right: 10px; } }
+      .container-fluid .thang .v2 .v4 .v4-3 {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 60px;
+        right: 30px; }
+        @media screen and (max-width: 767px) {
+          .container-fluid .thang .v2 .v4 .v4-3 {
+            bottom: 30px;
+            right: 60px; } }
+        @media screen and (min-width: 768px) and (max-width: 1025px) {
+          .container-fluid .thang .v2 .v4 .v4-3 {
+            bottom: 85px;
+            right: 25px; } }
+        @media screen and (min-width: 359px) and (max-width: 415px) {
+          .container-fluid .thang .v2 .v4 .v4-3 {
+            bottom: 30px;
+            right: 45px; } }
+        @media screen and (min-width: 767px) and (max-width: 769px) {
+          .container-fluid .thang .v2 .v4 .v4-3 {
+            bottom: 140px;
+            right: 10px; } }
+      .container-fluid .thang .v2 .v4 .v4-4 {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 60px;
+        left: 30px; }
+        @media screen and (max-width: 767px) {
+          .container-fluid .thang .v2 .v4 .v4-4 {
+            bottom: 30px;
+            left: 50px; } }
+        @media screen and (min-width: 768px) and (max-width: 1025px) {
+          .container-fluid .thang .v2 .v4 .v4-4 {
+            bottom: 85px;
+            left: 25px; } }
+        @media screen and (min-width: 359px) and (max-width: 415px) {
+          .container-fluid .thang .v2 .v4 .v4-4 {
+            bottom: 30px;
+            left: 45px; } }
+        @media screen and (min-width: 767px) and (max-width: 769px) {
+          .container-fluid .thang .v2 .v4 .v4-4 {
+            bottom: 140px;
+            left: 10px; } }
+    .container-fluid .thang .v2 .v6 {
+      height: 100%;
+      margin-top: -10px;
+      margin-bottom: 0px; }
+      @media screen and (max-width: 767px) {
+        .container-fluid .thang .v2 .v6 {
+          margin-left: 20%;
+          margin-top: 1%; } }
+      .container-fluid .thang .v2 .v6 .phone {
+        margin-top: 5%;
+        width: 85%;
+        height: 95%;
+        border-radius: 3%;
+        border: 2px solid white; }
+        @media screen and (min-width: 767px) and (max-width: 1024px) {
+          .container-fluid .thang .v2 .v6 .phone {
+            width: 130%;
+            margin-left: -35px; } }
+  @media screen and (min-width: 767px) and (max-width: 1024px) and (min-width: 770px) and (max-width: 1024px) {
+    .container-fluid .thang .v2 .v6 .phone {
+      width: 110%; } }
+        .container-fluid .thang .v2 .v6 .phone p {
+          display: block;
+          margin: 0 auto;
+          color: #2E64FE; }
+        .container-fluid .thang .v2 .v6 .phone .chu {
+          height: 50px;
+          width: 100%;
+          float: left; }
+          .container-fluid .thang .v2 .v6 .phone .chu h5 {
+            text-align: center;
+            line-height: 70px;
+            display: block;
+            margin: 0 auto;
+            color: white; }
+        .container-fluid .thang .v2 .v6 .phone .line {
+          height: 0.1px;
+          width: 65%;
+          background: white;
+          float: left;
+          margin: 0 auto;
+          margin-left: 5%;
+          margin-top: -3%; }
+      .container-fluid .thang .v2 .v6 form {
+        width: 90%;
+        margin: 0 auto; }
+        .container-fluid .thang .v2 .v6 form button {
+          width: 100%; }

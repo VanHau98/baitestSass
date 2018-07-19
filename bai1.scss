@@ -10,7 +10,338 @@
 
 // 		<!-- end phong -->
 // 		<!-- thang -->
+.thang{
+	height: auto;
+	background: #086A87;
+	.v1{
+		height: 80px;
+		// background: red;
+		position: relative;
+		h2{
+			display: block;
+			float: left;
+			margin: 0 auto;
+			padding: 30px;
+			border-bottom: 2px solid grey;
+			color: white;
+		}
+	}
+	.line{
+		height: 3px;
+		width: 15%;
+		background: #04B4AE;
+		float: left;
+		position: absolute;
+		top: 75px;
+		margin: 0 33%;
+		@media screen and (max-width: 767px){
+			margin-left: 40%;
+		}
+		@media screen and (min-width: 768px) and (max-width: 1025px){
+			margin-left: 38%;
+		}
+	}
+	.v2{
+		// background: green;
+		height: auto;
+		b{
+			color: #04B4AE;
+		}
+		.v3-1{
+			margin-top: 10%;
+			height: 30%;
+			// background: blue;
+			width: 70%;
+			float: right;
+			@media screen and (max-width: 767px){
+				display: none;
+			}
+			p{
+				text-align: right;
+				font-size: 15px;
+				color: white;
+				b{
+					@media screen and (min-width: 767px){
+					display: block;
+					// background: red;
+					float: right;
+					width: 170%;
+					}
+				}
+			}
+		}
+		.v3-2{
+			height: 30%;
+			// background: blue;
+			width: 70%;
+			float: right;
+			margin-top: 23%;
+			@media screen and (max-width: 767px){
+				display: none;
+			}
+			@media screen and (min-width: 767px) and (max-width: 1023px){
+				margin-top: 10px;
+				margin-left: 200px;
+			}
+			@media screen and (min-width: 1024px){
+				margin-top: 60px;
+				margin-left: 200px;
+			}
+			p{
+				text-align: right;
+				font-size: 15px;
+				color: white;
+				b{
+					@media screen and (min-width: 767px){
+					display: block;
+					// background: red;
+					float: right;
+					width: 170%;
+					}
+				}
+			}
+		}
+		.v5-1{
+			margin-top: 10%;
+			height: 30%;
+			// background: blue;
+			width: 70%;
+			float: left;
+			@media screen and (max-width: 767px){
+				display: none;
+			}
+			p{
+				text-align: left;
+				font-size: 15px;
+				color: white;
+				b{
+					@media screen and (min-width: 767px){
+					display: block;
+					// background: red;
+					float: left;
+					width: 106%;
+					}
+				}
+			}
+		}
+		.v5-2{
+			height: 30%;
+			// background: blue;
+			width: 70%;
+			float: left;
+			margin-top: 23%;
+			@media screen and (max-width: 767px){
+				display: none;
+			}
+			@media screen and (min-width: 767px){
+				margin-top: 130px;
+				margin-left: -90px;
+			}
+			@media screen and (min-width: 1024px){
+				margin-top: 60px;
+				margin-left: -15px;
+			}
+			p{
+				text-align: left;
+				font-size: 15px;
+				color: white;
+				b{
+					@media screen and (min-width: 767px){
+					display: block;
+					// background: red;
+					float: left;
+					width: 106%;
+					}
+				}
+			}
+		}
+		.v4{
+			position: relative;
+			margin-top: 3%;
+			@media screen and (max-width: 767px){
+				margin-left: 3%;
+			}
+			@media screen and (min-width: 768px) and (max-width: 1025px){
+				margin-top: 5%;
+			}
+			&:hover{
+				-webkit-animation: rotation 2s infinite linear;
+				img{
+					@-webkit-keyframes rotation {
+						from {
+							-webkit-transform: rotate(0deg);
+						}
+						to {
+							-webkit-transform: rotate(360deg);
+						}
+					}
+				}
+			}
+			.v4-1{
+				width: 45px;
+				height: 45px;
+				border-radius: 50%;
+				// background: purple;
+				position: absolute;
+				top: 15px;
+				left: 30px;
+				@media screen and (max-width: 767px){
+					top: 30px;
+					left: 50px;
+				}
+				@media screen and (min-width: 768px) and (max-width: 1025px){
+					top: 7px;
+					left: 25px;
+				}
+				@media screen and (min-width: 359px) and (max-width: 415px){
+					top: 30px;
+					left: 45px;
+				}
+				@media screen and (min-width: 767px) and (max-width: 769px){
+					top: -5px;
+					left: 10px;
+				}
+			}
+			.v4-2{
+				width: 45px;
+				height: 45px;
+				border-radius: 50%;
+				// background: purple;
+				position: absolute;	
+				top: 15px;
+				right: 30px;
+				@media screen and (max-width: 767px){
+					top: 30px;
+					right: 50px;
+				}
+				@media screen and (min-width: 768px) and (max-width: 1025px){
+					top: 7px;
+					right: 25px;
+				}
+				@media screen and (min-width: 359px) and (max-width: 415px){
+					top: 30px;
+					right: 45px;
+				}
+				@media screen and (min-width: 767px) and (max-width: 769px){
+					top: -5px;
+					right: 10px;
+				}
+			}
+			.v4-3{
+				width: 45px;
+				height: 45px;
+				border-radius: 50%;
+				// background: purple;
+				position: absolute;
+				bottom: 60px;
+				right: 30px;
+				@media screen and (max-width: 767px){
+					bottom: 30px;
+					right: 60px;
+				}
+				@media screen and (min-width: 768px) and (max-width: 1025px){
+					bottom: 85px;
+					right: 25px;
+				}
+				@media screen and (min-width: 359px) and (max-width: 415px){
+					bottom: 30px;
+					right: 45px;
+				}
+				@media screen and (min-width: 767px) and (max-width: 769px){
+					bottom: 140px;
+					right: 10px;
+				}
+			}
+			.v4-4{
+				width: 45px;
+				height: 45px;
+				border-radius: 50%;
+				// background: purple;
+				position: absolute;
+				bottom: 60px;
+				left: 30px;
+				@media screen and (max-width: 767px){
+					bottom: 30px;
+					left: 50px;
+				}
+				@media screen and (min-width: 768px) and (max-width: 1025px){
+					bottom: 85px;
+					left: 25px;
+				}
+				@media screen and (min-width: 359px) and (max-width: 415px){
+					bottom: 30px;
+					left: 45px;
+				}
+				@media screen and (min-width: 767px) and (max-width: 769px){
+					bottom: 140px;
+					left: 10px;
+				}
+			}
+		}
+		.v6{
+			// background: pink;
+			height: 100%;
+			margin-top: -10px;
+			margin-bottom: 0px;
+			@media screen and (max-width: 767px){
+				margin-left: 20%;
+				margin-top: 1%;
+			}
 
+			.phone{
+				margin-top: 5%;
+				width: 85%;
+				height: 95%;
+				// background: white;
+				border-radius: 3%;
+				border: 2px solid white;
+				@media screen and (min-width: 767px) and (max-width: 1024px){
+				// background: red;
+				width: 130%;
+				margin-left: -35px;
+				@media screen and (min-width: 770px) and (max-width: 1024px){
+					// background: yellow;
+					width: 110%;
+				}
+			}
+				p{
+					display: block;
+					margin: 0 auto;
+					color: #2E64FE;
+				}
+				.chu{
+					height: 50px;
+					// background: white;
+					width: 100%;
+					float: left;
+					h5{
+						text-align: center;
+						line-height: 70px;
+						display: block;
+						margin: 0 auto;
+						color: white;	
+					}
+				}
+				.line{
+					height: 0.1px;
+					width: 65%;
+					background: white;
+					float: left;
+					margin: 0 auto;
+					margin-left: 5%;
+					margin-top: -3%;
+				}
+			}
+			form{
+				width: 90%;
+				margin: 0 auto;
+				button{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
 // 		<!-- end thang -->
 // 		<!-- phong01 -->
 
