@@ -789,6 +789,7 @@
 						text-align:  center;
 					}
 
+<<<<<<< HEAD
 				}
 			}
 			.k3{
@@ -872,6 +873,208 @@
 }
 	// 		<!-- end duy -->
 	// 		<!-- son -->
+=======
+// 		<!-- end duy -->
+// 		<!-- son -->
+.son{
+	
+	
+	.box1{
+		height: 500px;
+		position: relative;
+		background-image: url(bc2.jpg);
+		background-size: 100%;
+		@media screen and (max-width: 767px){
+			height: 230px;
+		}
+		
+		.v1 h5{
+			margin-top: 5px;
+			// background: yellow;
+			text-align: center;
+			color: white;
+			@media screen and (max-width: 767px){
+				padding-top: -10%;
+				font-size: 15px;
+			}
+		}
+
+		.v2{
+			height: 2px;
+			background: #42b0f4;
+			margin: 0 auto;
+			@media screen and (max-width: 767px){
+				width: 30%;
+				margin: 0 auto;
+			}
+		}
+		.v22{
+			@media screen and (max-width: 767px){
+				width: 50%;
+				margin: 0 auto;
+			}
+		}
+		.v3 .col-md-3{
+			float: left;
+			margin-top: 10%;
+			height: 200px;
+			width:200px;
+			border:1px solid white;
+			margin-left: 20px;
+			@media screen and (max-width: 480px){
+				width: 50%;
+				height: 100px;
+				margin-top: 10%;	
+				left: -10%;
+				margin-left: 0px;
+				padding-right: 50px;
+			}
+			@media screen and(max-width: 1024px) {
+				width: 80px;
+			 	
+			 } 
+				
+			
+			@media screen and (max-width: 1024px) and (min-width: 768px){
+				width: 15%;
+			}
+			i{
+				position: absolute;
+				top: 20%;
+				bottom: 5%;
+				left: 30%;
+				right: 5%;
+				color: white;
+				font-size: 50px;
+				@media screen and (max-width: 1024px) and (min-width: 768px){
+					left: 15%;
+				}
+				@media screen and (max-width: 480px){
+					i{
+                       position: absolute;
+				      top: 20%;
+				bottom: 5%;
+                 left: -30%;
+				color: white;
+				font-size: 50px;
+					}
+				
+				}
+			}
+			h6{
+				color:white;
+				text-align: center;
+				position: relative;
+				top:80%;
+				@media screen and(max-width: 480px) {
+					font-size: 10px;
+				}
+			}
+		}
+		a.carousel-control-prev span.prev{
+			// background: rgba(53, 56, 61, 0.5);
+			position: absolute;
+			top: 130px; 
+			left: 180px;
+			height: 180px;
+			width: 30px;
+			font-size: 30pt;
+			line-height: 180px;
+			@media screen and (max-width: 1024px) and (min-width: 768px){
+				left: 70%;
+			}
+		}
+		a.carousel-control-next span.next{
+			// background: rgba(53, 56, 61, 0.5);
+			position: absolute;
+			top: 130px; 
+			right: 180px;
+			height: 180px;
+			width: 30px;
+			font-size: 30pt;
+			line-height: 180px;
+			@media screen and (max-width: 1024px) and (min-width: 768px){
+				right: 70%;
+			}
+
+		}
+		
+	}
+
+}
+.son1{
+		width: 100%;
+		height: auto;
+		background: white;
+		margin-top: 10px;
+		h3{
+			text-align: center;
+			border-bottom: 2px solid blue;
+			width: 270px;	
+			// background: pink;
+			margin: 0 auto;
+		}
+		.card-deck{
+			.card{
+				border: none;
+				background: none;
+			}
+			.card-title{
+				color: blue;
+			}
+			margin-top: 10px;
+			.card-img-top{
+				width: 100%;
+				height: 250px;
+			}
+			.card{
+				.rounded-circle{
+					width: 80px;
+					height: 80px;
+					position: absolute;
+					right: 0;
+					background: #009999;
+					p{
+						text-align: center;
+						margin-top: 20%;
+					}
+				}
+				.sonn{
+					 // border: 2px solid gray; 
+					 float: left;
+					 // background: gold;
+					.sonn1{
+						float: left;
+						// background: pink;
+						height: auto;
+						width: 40%;
+						.fas{
+							color: black;
+						}
+						.fa-arrows-alt-h{
+							// background: red;
+							@media screen and (min-width: 768px) and (max-width: 1024px){
+								display: block;
+								margin-top: -15px;
+								margin-left: 20px;
+							}
+						}
+						.fa-clock{
+							// background: yellow;
+							@media screen and (min-width: 768px) and (max-width: 1024px){
+								width: 70px;
+								margin-right: 10px;
+								float: left;
+							}
+						}
+					}
+				}
+			}
+
+
+		}
+	}
+>>>>>>> 3926cb992362aac71db111d9b42a5430735f0786
 
 	// 		<!-- end son -->
 	// 		<!-- hau -->
