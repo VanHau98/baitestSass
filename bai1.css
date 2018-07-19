@@ -65,6 +65,55 @@
   .container-fluid .v1-2 {
     width: 90%;
     font-size: 12px; } }
+.container-fluid .hung {
+  background: #DCDCDC; }
+  .container-fluid .hung .marketing .h3 h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white; }
+  .container-fluid .hung .marketing .row .col-lg-4 .hung .col-md-6 .hinh {
+    width: 80px;
+    height: 80px;
+    background: gray;
+    border-radius: 50%;
+    height: auto;
+    margin: 0 auto; }
+  .container-fluid .hung .marketing .row .col-lg-4 h4 {
+    text-align: center; }
+  .container-fluid .hung .marketing .row .col-lg-4 p {
+    text-align: center;
+    font-family: Helvetica; }
+.container-fluid .hung2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-image: url("012.jpg");
+  background-size: 100%; }
+  .container-fluid .hung2 .khunghinh {
+    display: block;
+    height: 100%;
+    background: rgba(115, 136, 193, 0.5); }
+    .container-fluid .hung2 .khunghinh .h3 {
+      display: block;
+      margin-top: 100px; }
+      .container-fluid .hung2 .khunghinh .h3 h3 {
+        text-transform: uppercase;
+        text-align: center;
+        color: white; }
+      .container-fluid .hung2 .khunghinh .h3 p {
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        font-weight: bolder; }
+    .container-fluid .hung2 .khunghinh .hinhngoai .hinh .col-md-4 {
+      width: 100%; }
+      .container-fluid .hung2 .khunghinh .hinhngoai .hinh .col-md-4 img {
+        width: 100%;
+        height: 100%; }
+      @media all and (max-width: 767px) {
+        .container-fluid .hung2 .khunghinh .hinhngoai .hinh .col-md-4 {
+          margin-top: 10px; } }
 .container-fluid .ha {
   background: #000011;
   height: auto; }
