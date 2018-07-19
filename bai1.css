@@ -1,3 +1,146 @@
+.container-fluid .son .box1 {
+  height: 500px;
+  position: relative;
+  background-image: url(bc2.jpg);
+  background-size: 100%; }
+  @media screen and (max-width: 767px) {
+    .container-fluid .son .box1 {
+      height: 230px; } }
+  .container-fluid .son .box1 .v1 h5 {
+    margin-top: 5px;
+    text-align: center;
+    color: white; }
+    @media screen and (max-width: 767px) {
+      .container-fluid .son .box1 .v1 h5 {
+        padding-top: -10%;
+        font-size: 15px; } }
+  .container-fluid .son .box1 .v2 {
+    height: 2px;
+    background: #42b0f4;
+    margin: 0 auto; }
+    @media screen and (max-width: 767px) {
+      .container-fluid .son .box1 .v2 {
+        width: 30%;
+        margin: 0 auto; } }
+  @media screen and (max-width: 767px) {
+    .container-fluid .son .box1 .v22 {
+      width: 50%;
+      margin: 0 auto; } }
+  .container-fluid .son .box1 .v3 .col-md-3 {
+    float: left;
+    margin-top: 10%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    margin-left: 20px; }
+    @media screen and (max-width: 480px) {
+      .container-fluid .son .box1 .v3 .col-md-3 {
+        width: 50%;
+        height: 100px;
+        margin-top: 10%;
+        left: -10%;
+        margin-left: 0px;
+        padding-right: 50px; } }
+    @media screen and (max-width: 1024px) {
+      .container-fluid .son .box1 .v3 .col-md-3 {
+        width: 80px; } }
+    @media screen and (max-width: 1024px) and (min-width: 768px) {
+      .container-fluid .son .box1 .v3 .col-md-3 {
+        width: 15%; } }
+    .container-fluid .son .box1 .v3 .col-md-3 i {
+      position: absolute;
+      top: 20%;
+      bottom: 5%;
+      left: 30%;
+      right: 5%;
+      color: white;
+      font-size: 50px; }
+      @media screen and (max-width: 1024px) and (min-width: 768px) {
+        .container-fluid .son .box1 .v3 .col-md-3 i {
+          left: 15%; } }
+      @media screen and (max-width: 480px) {
+        .container-fluid .son .box1 .v3 .col-md-3 i i {
+          position: absolute;
+          top: 20%;
+          bottom: 5%;
+          left: -30%;
+          color: white;
+          font-size: 50px; } }
+    .container-fluid .son .box1 .v3 .col-md-3 h6 {
+      color: white;
+      text-align: center;
+      position: relative;
+      top: 80%; }
+      @media screen and (max-width: 480px) {
+        .container-fluid .son .box1 .v3 .col-md-3 h6 {
+          font-size: 10px; } }
+  .container-fluid .son .box1 a.carousel-control-prev span.prev {
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    height: 180px;
+    width: 30px;
+    font-size: 30pt;
+    line-height: 180px; }
+    @media screen and (max-width: 1024px) and (min-width: 768px) {
+      .container-fluid .son .box1 a.carousel-control-prev span.prev {
+        left: 70%; } }
+  .container-fluid .son .box1 a.carousel-control-next span.next {
+    position: absolute;
+    top: 130px;
+    right: 180px;
+    height: 180px;
+    width: 30px;
+    font-size: 30pt;
+    line-height: 180px; }
+    @media screen and (max-width: 1024px) and (min-width: 768px) {
+      .container-fluid .son .box1 a.carousel-control-next span.next {
+        right: 70%; } }
 
-
-/*# sourceMappingURL=bai1.css.map */
+.container-fluid .son1 {
+  width: 100%;
+  height: auto;
+  background: white;
+  margin-top: 10px; }
+  .container-fluid .son1 h3 {
+    text-align: center;
+    border-bottom: 2px solid blue;
+    width: 270px;
+    margin: 0 auto; }
+  .container-fluid .son1 .card-deck {
+    margin-top: 10px; }
+    .container-fluid .son1 .card-deck .card {
+      border: none;
+      background: none; }
+    .container-fluid .son1 .card-deck .card-title {
+      color: blue; }
+    .container-fluid .son1 .card-deck .card-img-top {
+      width: 100%;
+      height: 250px; }
+    .container-fluid .son1 .card-deck .card .rounded-circle {
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      right: 0;
+      background: #009999; }
+      .container-fluid .son1 .card-deck .card .rounded-circle p {
+        text-align: center;
+        margin-top: 20%; }
+    .container-fluid .son1 .card-deck .card .sonn {
+      float: left; }
+      .container-fluid .son1 .card-deck .card .sonn .sonn1 {
+        float: left;
+        height: auto;
+        width: 40%; }
+        .container-fluid .son1 .card-deck .card .sonn .sonn1 .fas {
+          color: black; }
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+          .container-fluid .son1 .card-deck .card .sonn .sonn1 .fa-arrows-alt-h {
+            display: block;
+            margin-top: -15px;
+            margin-left: 20px; } }
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+          .container-fluid .son1 .card-deck .card .sonn .sonn1 .fa-clock {
+            width: 70px;
+            margin-right: 10px;
+            float: left; } }
