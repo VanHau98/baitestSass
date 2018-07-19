@@ -1,5 +1,5 @@
 .container-fluid{
-	
+
 // 		<!-- dat -->
 
 // 		<!-- end dat -->
@@ -22,6 +22,100 @@
 
 // 		<!-- end son -->
 // 		<!-- hau -->
-
+		.ha{
+				background: #000011;
+				height: auto;
+		.hau{
+			// height: 600px;
+			// background: #000011;
+			color:black;
+			opacity: 0.8;
+			// @media screen and(max-with:767px){
+			// 	height: 1600px;
+			// }
+			.hau11{
+				float: left;
+				// background: pink;
+				padding-top:20px;
+				h2{
+					color: red;
+				}
+				padding-right: 40px;
+				p{
+					text-align: justify;
+					font-size: 10pt;
+				}
+				h6{
+					margin: 0;
+					padding:0;
+				}
+				
+				@media screen and (max-width: 1023px){
+					p{
+						font-size: 8pt;
+					}
+					h6{
+						font-size: 8pt;
+					}
+					h2{
+						font-size: 12pt;
+					}
+					h5{
+						font-size: 8pt;
+					}
+				}
+				.media{
+					float: left;
+					.media-body{
+						i{
+							font-size: 50%;
+						}
+					}
+					img{
+						width: 20%;
+						height: 20%;
+					}
+				}
+				.hau22{
+					 margin-top: 50px;
+					.card-group{
+						.card{
+							img{
+								height: 60px;
+							}
+						}
+					}
+				}
+			}
+			.oke{
+				float: left;
+				height: 1px;
+				background:black;
+				position: relative;
+				margin-top: 20px;
+				p{
+					text-align: center;
+					font-size: 14pt;
+					padding-top:50px
+				}
+				.ogiua{
+					width: 50px;
+					height: 50px;				
+					background:black;
+					position: absolute;
+					border-radius: 50%;
+					top:-25px;
+					margin-left: 45%;
+					@media screen and (max-width: 767px){
+						margin-left: 35%;
+					}
+					i{
+						color: white;
+						margin-left: 20%;
+					}
+				}
+			}
+		}
+	}
 // 		<!-- end hau -->
 }

@@ -1,3 +1,64 @@
-
+.container-fluid .ha {
+  background: #000011;
+  height: auto; }
+  .container-fluid .ha .hau {
+    color: black;
+    opacity: 0.8; }
+    .container-fluid .ha .hau .hau11 {
+      float: left;
+      padding-top: 20px;
+      padding-right: 40px; }
+      .container-fluid .ha .hau .hau11 h2 {
+        color: red; }
+      .container-fluid .ha .hau .hau11 p {
+        text-align: justify;
+        font-size: 10pt; }
+      .container-fluid .ha .hau .hau11 h6 {
+        margin: 0;
+        padding: 0; }
+      @media screen and (max-width: 1023px) {
+        .container-fluid .ha .hau .hau11 p {
+          font-size: 8pt; }
+        .container-fluid .ha .hau .hau11 h6 {
+          font-size: 8pt; }
+        .container-fluid .ha .hau .hau11 h2 {
+          font-size: 12pt; }
+        .container-fluid .ha .hau .hau11 h5 {
+          font-size: 8pt; } }
+      .container-fluid .ha .hau .hau11 .media {
+        float: left; }
+        .container-fluid .ha .hau .hau11 .media .media-body i {
+          font-size: 50%; }
+        .container-fluid .ha .hau .hau11 .media img {
+          width: 20%;
+          height: 20%; }
+      .container-fluid .ha .hau .hau11 .hau22 {
+        margin-top: 50px; }
+        .container-fluid .ha .hau .hau11 .hau22 .card-group .card img {
+          height: 60px; }
+    .container-fluid .ha .hau .oke {
+      float: left;
+      height: 1px;
+      background: black;
+      position: relative;
+      margin-top: 20px; }
+      .container-fluid .ha .hau .oke p {
+        text-align: center;
+        font-size: 14pt;
+        padding-top: 50px; }
+      .container-fluid .ha .hau .oke .ogiua {
+        width: 50px;
+        height: 50px;
+        background: black;
+        position: absolute;
+        border-radius: 50%;
+        top: -25px;
+        margin-left: 45%; }
+        @media screen and (max-width: 767px) {
+          .container-fluid .ha .hau .oke .ogiua {
+            margin-left: 35%; } }
+        .container-fluid .ha .hau .oke .ogiua i {
+          color: white;
+          margin-left: 20%; }
 
 /*# sourceMappingURL=bai1.css.map */
